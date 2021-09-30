@@ -1,0 +1,41 @@
+{
+  "name": "wing-use-fetch",
+  "version": "0.0.1",
+  "description": "the fetch hook for react app",
+  "keywords": [
+    "fetch",
+    "fetch-hook",
+    "react",
+    "react hook"
+  ],
+  "main": "dist/wing-use-fetch.es.js",
+  "module": "dist/wing-use-fetch.es.js",
+  "unpkg": "dist/wing-use-fetch.js",
+  "scripts": {
+    "build": "rollup --config"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wayley/wing-use-fetch.git"
+  },
+  "author": {
+    "name": "Robben Wayley",
+    "email": "hb_wangzheng@163.com"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Wayley/wing-use-fetch/issues"
+  },
+  "homepage": "https://github.com/Wayley/wing-use-fetch#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-react": "^7.14.5",
+    "rollup": "^2.56.3",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "use-http": "^1.0.24"
+  }
+}
