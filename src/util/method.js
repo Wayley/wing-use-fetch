@@ -8,4 +8,14 @@ export function queryParams(query) {
   }
   return result;
 }
+
+export function getFormData(data) {
+  let formData = new FormData();
+  for (const key in data) {
+    if (Object.hasOwnProperty.call(data, key)) {
+      formData.append(key, data[key]);
+    }
+  }
+  return formData;
+}
 export default { queryParams };

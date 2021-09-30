@@ -2,7 +2,7 @@ import React, { useContext, createContext, useState } from "react";
 import { Provider } from "use-http";
 
 import { Fetch } from "./util/fetch";
-import { queryParams } from "./util/method";
+import { queryParams, getFormData } from "./util/method";
 
 const fetchContext = createContext();
 
@@ -20,8 +20,8 @@ function useProviderFetch(common) {
       }
       return get(url);
     },
-    formPost: (url, formData) => {
-      return post(url, { ...common, ...formData });
+    formPost: (url, data) => {
+      return post(url, getFormData({ ...common, ...data }));
     },
     post: (url, data) => {
       return post(url, { ...common, ...data });

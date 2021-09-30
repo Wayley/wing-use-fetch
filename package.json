@@ -1,6 +1,6 @@
 {
   "name": "wing-use-fetch",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "the fetch hook for react app",
   "keywords": [
     "fetch",
