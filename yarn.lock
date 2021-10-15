@@ -589,3 +589,8 @@ utility-types@^3.10.0:
   version "3.10.0"
   resolved "https://registry.yarnpkg.com/utility-types/-/utility-types-3.10.0.tgz#ea4148f9a741015f05ed74fd615e1d20e6bed82b"
   integrity sha512-O11mqxmi7wMKCo6HKFt5AhO4BwY3VV68YU07tgxfz8zJTIxr4BpsezN49Ffwy9j3ZpwwJp4fkRwjRzq3uWE6Rg==
+
+wing-fetch@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/wing-fetch/-/wing-fetch-0.0.1.tgz#301e64996d791bf8ac48a7647c2fb48eb2e02f0b"
+  integrity sha512-f+Onw6EM8tEAj6+94Snp5kqj/Lfo639Wj2lQPdpSzeGFwfGjm+R2i3GLD3vIZffzfEglk/xGa+aShFSzlSDdQQ==
